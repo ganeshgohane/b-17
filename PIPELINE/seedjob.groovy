@@ -1,4 +1,4 @@
-job('example1') {
+job('example 1') {
     steps {
         shell('echo START')
         
