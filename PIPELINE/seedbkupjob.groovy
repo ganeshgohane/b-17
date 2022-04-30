@@ -18,7 +18,7 @@ pipelineJob('scriptedpipelines_converted') {
 
     flowdefinition << delegate.'definition'(class:'org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition',plugin:'workflow-cps@2689.v434009a_31b_f1') {
 
-      'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
+      'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git@4.11.0') {
 
         'configVersion'(2)
 
